@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# IDE - VSCode
+.vscode/
+
+# Environment configuration
+.env

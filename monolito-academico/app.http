@@ -1,0 +1,25 @@
+###
+GET http://localhost:5000
+
+###
+POST http://localhost:5000/students
+Content-Type: application/json
+
+{
+  "name": "Juan Perez",
+  "semester": 3
+}
+
+###
+GET http://localhost:5000/students
+
+###
+POST http://localhost:5000/courses
+Content-Type: application/json
+
+{
+  "title": "Matemáticas",
+  "credits": 4
+}
+###
+GET http://localhost:5000/courses

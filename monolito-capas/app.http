@@ -1,0 +1,60 @@
+### instalar la dependencia rest client en vscode, para ejecutar las peticiones http
+### luego abrir este archivo y hacer click en "Send Request" sobre cada peticion http
+
+### post students
+post http://localhost:5002/students
+Content-Type: application/json
+
+{
+  "name": "Juan Perez",
+  "semester": 3
+}
+###
+post http://localhost:5002/students
+Content-Type: application/json
+
+{
+  "name": "Isabella Martinez",
+  "semester": 4
+}
+###
+post http://localhost:5002/students
+Content-Type: application/json
+
+{
+  "name": "Sebastián Gómez",
+  "semester": 5
+}
+### get students
+get http://localhost:5002/students
+
+### post courses
+post http://localhost:5002/courses
+Content-Type: application/json
+
+{
+  "name": "Matemáticas",
+  "code": "MATH101"
+}
+###
+post http://localhost:5002/courses
+Content-Type: application/json
+
+{
+  "name": "Historia",
+  "code": "HIST202"
+}
+###
+post http://localhost:5002/courses
+Content-Type: application/json
+
+{
+  "name": "Biología",
+  "code": "BIO303"
+}
+
+### get courses
+get http://localhost:5002/courses
+### get root
+get http://localhost:5002/
+###
